@@ -1,0 +1,25 @@
+npm install -g @angular/cli@latest 
+ng new angular-udemy --no-strict 
+ng serve
+
+npm install --save bootstrap@3
+ng generate component component-name (or ng g c component-name)
+
+import { FormsModule } from '@angular/forms';
+<input type="text" [(ngModel)]="name">
+
+teplate: -> for inline html code
+templateUrl: -> for external html file
+
+styleUrls: ['./servers.component.css','']
+or
+styles: [`
+    h3 {
+      color: blue;
+    }
+  `]
+
+
+-STRING INTERPOLATION -> {{variable}} 
+-PROPERTY BINDING -> <p [innerText]="variable"></p>
+-EVENT BINDING
