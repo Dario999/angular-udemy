@@ -14,6 +14,9 @@ import { Component, OnInit } from '@angular/core';
     h3 {
       color: dodgerblue;
     }
+    white-text {
+      text-color: white;
+    }
   `]
 })
 export class ServersComponent implements OnInit {
