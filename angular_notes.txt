@@ -4,6 +4,7 @@ ng serve
 
 npm install --save bootstrap@3
 ng generate component component-name (or ng g c component-name)
+ng g c component-name --skipTests false 
 
 import { FormsModule } from '@angular/forms';
 <input type="text" [(ngModel)]="name">
